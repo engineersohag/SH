@@ -1,0 +1,230 @@
+/* ===== RESPONSIVE STYLES ===== */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Large devices (desktops, 992px to 1199px) */
+@media (max-width: 1199px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    .section-title {
+        font-size: 2.2rem;
+    }
+}
+
+/* Medium devices (tablets, 768px to 991px) */
+@media (max-width: 991px) {
+    body {
+        padding-top: 70px;
+    }
+    
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-section {
+        padding: 60px 0;
+    }
+    
+    .hero-image {
+        margin-top: 40px;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .page-title {
+        padding: 80px 0 40px;
+    }
+    
+    .page-title h1 {
+        font-size: 2.5rem;
+    }
+    
+    .personal-info-card {
+        padding: 30px 20px;
+    }
+    
+    .info-list li {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .info-list strong {
+        width: 100px;
+    }
+}
+
+/* Small devices (landscape phones, 576px to 767px) */
+@media (max-width: 767px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .hero-description {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .section-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .mission-card,
+    .service-card,
+    .testimonial-card,
+    .service-grid-card,
+    .client-benefit-card,
+    .contact-info-card {
+        padding: 25px 20px;
+    }
+    
+    .timeline {
+        padding-left: 20px;
+    }
+    
+    .timeline-item {
+        padding-left: 20px;
+    }
+    
+    .timeline-item::before {
+        left: -26px;
+    }
+    
+    .contact-form {
+        padding: 30px 20px;
+    }
+    
+    .map-placeholder {
+        padding: 30px 20px;
+    }
+    
+    .stat-number {
+        font-size: 2.5rem;
+    }
+    
+    .btn {
+        padding: 10px 25px;
+    }
+    
+    .btn-lg {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    body {
+        padding-top: 65px;
+    }
+    
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .page-title h1 {
+        font-size: 2rem;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1rem;
+    }
+    
+    .client-logo {
+        height: 80px;
+        padding: 15px;
+    }
+    
+    .logo-placeholder {
+        font-size: 1rem;
+    }
+    
+    .stat-item {
+        padding: 15px 10px;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+    }
+    
+    .stat-label {
+        font-size: 0.9rem;
+    }
+    
+    .social-links a {
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+    
+    .footer .col-md-6 {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+    
+    .info-list li {
+        display: block;
+    }
+    
+    .info-list strong {
+        width: 100%;
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+
+/* Print styles */
+@media print {
+    .navbar,
+    .hero-buttons,
+    .footer,
+    .social-links,
+    .btn {
+        display: none !important;
+    }
+    
+    body {
+        padding-top: 0;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    a {
+        text-decoration: underline;
+        color: #000;
+    }
+}
